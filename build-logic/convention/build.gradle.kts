@@ -33,5 +33,12 @@ gradlePlugin {
             implementationClass = "HiltPlugin"
         }
 
+        register("pluginApproachRoot"){
+            id = "ss.root"
+            implementationClass = "RootPlugin"
+
+        }
+
+
     }
 }
